@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(9,0,77, .65), rgba(9,0,77, .65));
+    background-image: url(travle.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+
+#icon1{
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(173, 226, 226);
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+    font-size: 20px;
+    display:inline-block;
+    margin: 10px 20px;
+   
+    
+}
+
+
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 2s ;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid rgb(173, 226, 226);
+    color: rgb(173, 226, 226);
+    font-size: 22px;
+}
+.btn{
+    display: flex;
+    align-items:center ;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: rgb(173, 226, 226);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn i{
+    font-size: 16px;
+    margin-right:10px;
+}
+
+.content{
+    margin-top: 15%;
+    padding: 10px;
+    color: #fff;
+    background: rgba(155, 19, 137, 0.5);
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.content h1{
+    font-size: 50px;
+    font-style: 600;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+
+.content p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.content form{
+    display: flex;
+    align-items: center;
+    background-color: rgb(173, 226, 226);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.content form input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 12px;
+    background: rgb(173, 226, 226,.7);
+}
+
+.btn{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    align-items: flex-end;
+    background-color: rgba(155, 19, 137, 0.5);
+    color: #fff;
+}
